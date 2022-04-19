@@ -15,7 +15,8 @@ int main() {
 
     cout << "Enter operation (+, -, *, or /): ";
     cin >> op;
-
+    
+    //Use a switch statement it's cleaner
     if (op == '+') {
         cout << x + y << endl;
     }
